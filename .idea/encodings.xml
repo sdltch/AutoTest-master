@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/README.md" charset="GBK" />
     <file url="file://$PROJECT_DIR$/common" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/common/is_instance.py" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config" charset="GBK" />
     <file url="file://$PROJECT_DIR$/data" charset="GBK" />
     <file url="file://$PROJECT_DIR$/logs" charset="GBK" />

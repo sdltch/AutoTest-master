@@ -6,8 +6,10 @@ import datetime
 
 class ExcelData():
     def __init__(self, file_path, sheet_name):
+        print("sdsdf")
         self.file_path = file_path
         self.sheet_name = sheet_name
+
         self.workbook = xlrd.open_workbook(self.file_path)
 
         # 获取工作表的内容
@@ -58,7 +60,9 @@ class ExcelData():
 
 
 if __name__ == '__main__':
-    file_path = "D:\python_data\接口自动化测试.xlsx"
+    #file_path = "D:\python_data\接口自动化测试.xlsx"
+    file_path = "D:\testdata\gitami\pythonami\AutoTest - master\data\接口自动化测试.xlsx"
+
     sheet_name = "测试用例"
     data = ExcelData(file_path, sheet_name)
     datas = data.readExcel()
@@ -67,4 +71,4 @@ if __name__ == '__main__':
     for i in datas:
         print(i)
 
-    # data.write(2,12,"哈哈")
+    data.write(2,12,"哈哈")

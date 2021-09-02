@@ -1,0 +1,4 @@
+2021-09-02 11:11:20,267 logger.py[line:37]INFO - info
+2021-09-02 11:11:20,267 logger.py[line:38]WARNING - warning
+2021-09-02 11:11:20,267 logger.py[line:39]ERROR - error
+2021-09-02 11:11:20,267 logger.py[line:40]CRITICAL - critical
